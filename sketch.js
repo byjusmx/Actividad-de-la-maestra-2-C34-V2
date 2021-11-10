@@ -113,7 +113,7 @@ function setup()
   star_display.addAnimation('two',two_star);
   star_display.changeAnimation('empty');
 
-  //star sprite
+  //sprite estrella
   star = createSprite(320,50,20,20);
   star.addImage(star_img);
   star.scale=0.02;
